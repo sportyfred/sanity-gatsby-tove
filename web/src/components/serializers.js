@@ -1,7 +1,8 @@
+import React from 'react'
 import Figure from './figure'
 import getYouTubeId from 'get-youtube-id'
 import YouTube from 'react-youtube'
-import PortableText from '@sanity/block-content-to-react'
+
 
 const serializers = {
   types: {
