@@ -10,6 +10,12 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   plugins: [
+      {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     {

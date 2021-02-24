@@ -87,15 +87,17 @@ const IndexPage = props => {
     <Layout>
       <SEO title={site.title} description={site.description} keywords={site.keywords} />
       <Container>
-        <h1 hidden>Welcome to {site.title}</h1>
+        <h1>Welcome to {site.title}</h1>
+        <h2>This is my portfolio</h2>
         {projectNodes && (
           <ProjectPreviewGrid
-            title='Latest projects'
+            title='Projekt'
             nodes={projectNodes}
             browseMoreHref='/archive/'
           />
         )}
-      </Container>
+        <h3>Contact: tovemoller@gmail.com</h3></Container>
+    
     </Layout>
   )
 }
