@@ -84,6 +84,7 @@ const IndexPage = props => {
   }
 
   return (
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript">
     <Layout>
       <SEO title={site.title} description={site.description} keywords={site.keywords} />
       <Container>
