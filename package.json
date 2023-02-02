@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "lerna": "^6.4.1"
   },
   "dependencies": {
     "@sanity/block-content-to-react": "^2.0.7"
